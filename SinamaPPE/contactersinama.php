@@ -29,7 +29,7 @@
      ?>
 
 <!-- image qui défile sur les évènements et autres PROMOTIONS et OFFRES-->
-< src="Salle-cinema-vide-776x390.jpg" alt="Nouveau !" />
+
 <CENTER>
 <div style="width: 800px;  display:block; position:static; padding-top:10px; padding-bottom:10px;border: 2px solid black; text-align: center; background: #353A3F; border-radius: 5px;">
 </br>
