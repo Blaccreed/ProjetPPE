@@ -43,7 +43,7 @@
 TARIFS
 
 <hr width="50%" color="white">
-<br>Tarif tt personne confondue &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   5,00 €</br>
+<br>Tarif toute personne confondue &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   5,00 €</br>
 
 <hr width="50%" color="white">
 </br>
