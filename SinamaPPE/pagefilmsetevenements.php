@@ -26,8 +26,8 @@
         include 'scriptphp/bandeau.php';
       ?>
 
-    <!-- la navbar de l'accueil du site -->
 
+    <!-- la navbar de l'accueil du site -->gociné2.png" alt="" width="200" /> -
 <?php
     echo "string";
 
