@@ -13,7 +13,7 @@
 
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
-<a class="btConnexion" href="pageconnexionsinama.php" >&nbsp;CONNEXION&nbsp;</a>
+<a class="btConnexion" href="pageConnexion.html" >&nbsp;CONNEXION&nbsp;</a>
 <img src="logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
@@ -26,10 +26,10 @@
         include 'scriptphp/bandeau.php';
       ?>
 
-
+    <!-- la navbar de l'accueil du site -->
 
 <?php
-    echo "alololololo";
+    echo "string";
 
 ?>
 </html>
