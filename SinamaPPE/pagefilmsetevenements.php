@@ -29,7 +29,7 @@
 
 
 <?php
-    echo "string";
+    echo "alololololo";
 
 ?>
 </html>
