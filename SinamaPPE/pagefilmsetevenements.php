@@ -13,7 +13,7 @@
 
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
-<a class="btConnexion" href="pageConnexion.html" >&nbsp;CONNEXION&nbsp;</a>
+<a class="btConnexion" href="pageconnexionsinama.php" >&nbsp;CONNEXION&nbsp;</a>
 <img src="logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
@@ -37,7 +37,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="pageaccueilsinama.html">ACCUEIL<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="pageaccueilsinama.php">ACCUEIL<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="#">FILMS & ÉVÈNEMENTS <span class="sr-only">(current)</span></a>
