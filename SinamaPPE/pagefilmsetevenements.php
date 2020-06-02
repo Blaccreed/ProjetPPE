@@ -25,9 +25,9 @@
     <?php
         include 'scriptphp/bandeau.php';
       ?>
-    <!-- la navbar de l'accueil du site -->
 
-    
+
+
 <?php
     echo "string";
 
