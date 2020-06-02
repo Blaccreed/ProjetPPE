@@ -17,7 +17,7 @@
     <a class="nav-link" href="#">OFFRES ET PROMOTIONS<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
-    <a class="nav-link" href="#">TARIFS<span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="tarifs.html">TARIFS<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
     <a class="nav-link" href="contactersinama.php">NOUS CONTACTER<span class="sr-only">(current)</span></a>
