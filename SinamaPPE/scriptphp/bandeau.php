@@ -14,9 +14,6 @@
     <a class="nav-link" href="pagefilmsetevenements.php">FILMS & ÉVÈNEMENTS <span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
-    <a class="nav-link" href="#">OFFRES ET PROMOTIONS<span class="sr-only">(current)</span></a>
-  </li>
-  <li class="nav-item active">
     <a class="nav-link" href="tarifs.php">TARIFS<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
