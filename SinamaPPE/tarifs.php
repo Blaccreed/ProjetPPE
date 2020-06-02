@@ -14,7 +14,7 @@
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
 
 <a class="btConnexion" href="pageConnexion.html" >&nbsp;CONNEXION&nbsp;</a>
-<img src="logociné2.png" alt="" width="200" />
+<img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
