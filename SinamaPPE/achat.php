@@ -19,7 +19,7 @@
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
 
 <a class="btConnexion" href="#" >&nbsp;CONNEXION&nbsp;</a>
-<img src="logociné2.png" alt="" width="200" />
+<img src="imagedivers/logociné2.png" alt="" width="200" />
 
    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -30,40 +30,7 @@
 
 
     <!-- la navbar de l'accueil du site -->
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- controle la couleur de la nav bar ''faut enlever bg-dark pour couleur''-->
-
-<!-- <img src="logociné2.png" alt="" width="200" /> -->
-
-  <a class="navbar-brand" href="#"><img src="logocine2copie.png" width="170"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">ACCUEIL<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">FILMS & ÉVÈNEMENTS <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">OFFRES ET PROMOTIONS<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">TARIFS<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">NOUS CONTACTER<span class="sr-only">(current)</span></a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-    </form>
-  </div>
-</nav>
+<?php include 'scriptphp/bandeau.php';?>
 
 </div> <!-- div pour couleur en haut -->
 
@@ -76,14 +43,13 @@
   <div class="card mb-3" style="max-width: 70%; margin-top: 80px; margin-bottom: 0px;"> <!-- case avec resume de ce qu'on achete -->
   <div class="row no-gutters">
     <div class="col-md-4" style="width: 18rem;">
-      <img src="nightmareisland.jpg" class="card-img" alt="...">
+      <img src="imagedivers/nightmareisland.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">Billet choisi</h5>
         <p class="card-text">Vous avez choisi le film Nightmare Island.</p>
         <li class="list-group-item"> -4 personnes</li>
-        <li class="list-group-item">-tarif adulte</li>
         <li class="list-group-item">-pour le 30/12/2000</li>
         <li class="list-group-item">-durée 90 min</li>
       </div>
@@ -103,7 +69,7 @@
           <div class="form-check">
           <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
           <label class="form-check-label" for="exampleRadios1"> Carte Bancaire </label>
-          <img src="CarteB.png" class="card-img" style="width: 5rem;">
+          <img src="imagedivers/CarteB.png" class="card-img" style="width: 5rem;">
         </div>
         </li>
 
@@ -111,7 +77,7 @@
           <div class="form-check">
           <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
           <label class="form-check-label" for="exampleRadios1"> PayPal </label>
-          <img src="Paypal.png" class="card-img" style="width: 5rem;">
+          <img src="imagedivers/Paypal.png" class="card-img" style="width: 5rem;">
         </div>
         </li>
 

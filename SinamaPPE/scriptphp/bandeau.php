@@ -11,7 +11,7 @@
     <a class="nav-link" href="pageaccueilsinama.php">ACCUEIL<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
-    <a class="nav-link" href="pagefilmsetevenements.php">FILMS & ÉVÈNEMENTS <span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="pagefilmsEtReservation.php">FILMS & RESERVATION <span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
     <a class="nav-link" href="tarifs.php">TARIFS<span class="sr-only">(current)</span></a>
