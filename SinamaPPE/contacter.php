@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="contactersinama.css" >
     <title>Sinama</title>
   </head>
-  <body style="background-color: black; color: white; display:block; position:static; ">
+  <body>
 
     <div class="body2">
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
@@ -24,18 +24,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!-- la navbar de l'accueil du site -->
-<?php include 'scriptphp/bandeau.php';?>
+    <?php
+       include 'scriptphp\bandeau.php';
+     ?>
 
+<!-- image qui défile sur les évènements et autres PROMOTIONS et OFFRES-->
 
 <CENTER>
-<div style="width: 800px; margin-top: 5%; display:block; position:static; padding-top:10px; padding-bottom:10px;border: 2px solid black; text-align: center; background: #353A3F; border-radius: 5px;">
+<div style="width: 800px;  display:block; position:static; padding-top:10px; padding-bottom:10px;border: 2px solid black; text-align: center; background: #353A3F; border-radius: 5px;">
 </br>
-<p><b><font color="red" size=+3 >Nous contacter</font></p></b>
-
+<p>
+ <b><font color="red" size=+3 >Nous contacter</font></p></b>
+ </p>
  Besoin de conseils ou d'informations, nous sommes là pour vous aider.
 </br>
 </br>
-<p><b><font color="red" size=+3 >Service client</font></p></b>
+<b><font color="red" size=+3 >Service client</font></p></b>
 Vous souhaitez obtenir des informations
 </br>
 Vous pouvez nous joindre :
@@ -48,7 +52,7 @@ Nous sommes disponibles du lundi au vendredi de 8h à 19h et le samedi de 8h à 
 </br>
 </br>
 <li>Par email:</li>
-sinama@hotmail.fr
+sinama@gmail.com
 </br>
 </br>
 </div>
