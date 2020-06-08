@@ -35,7 +35,7 @@ if(isset($_POST['connexion'])) { // si le bouton "Connexion" est appuyé
                     $_SESSION['prenom'] = $prenom;
                     $_SESSION['id'] = $id; // la session peut être appelée différemment et son contenu aussi peut être autre chose que le pseudo
                     echo "Vous êtes à présent connecté !";
-                    header("Location: pageaccueilsinama.php");
+                    header("Location: accueil.php");
                 }
             }
         }
