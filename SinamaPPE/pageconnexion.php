@@ -13,7 +13,7 @@
 
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
-    <a class="btConnexion" href="pageconnexionsinama.php" >&nbsp;CONNEXION&nbsp;</a>
+    <?php include 'scriptphp/Statut.php'; ?>
     <img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
@@ -44,11 +44,11 @@
   </div>
 <a href="#">Mot de passe oublié</a>
 </br>
-<a href="pageaccueilsinama.php"><button type="submit" name="connexion" class="btn btn-primary"style="width: 8rem;background-color: #53A351; margin-top: 30px; margin-bottom: 10px;">Connexion</button></a>
+<a href=""><button type="submit" name="connexion" class="btn btn-primary"style="width: 8rem;background-color: #53A351; margin-top: 30px; margin-bottom: 10px;">Connexion</button></a>
 </form>
 </br>
 <p>OU</p>
-<a href="inscriptionsinama.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">S'inscrire</button></a>
+<a href="pageinscription.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">S'inscrire</button></a>
 </div>
 </CENTER>
 

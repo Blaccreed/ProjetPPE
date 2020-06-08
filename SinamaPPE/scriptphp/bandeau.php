@@ -8,7 +8,7 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 <ul class="navbar-nav ml-auto">
   <li class="nav-item active">
-    <a class="nav-link" href="pageaccueilsinama.php">ACCUEIL<span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="accueil.php">ACCUEIL<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
     <a class="nav-link" href="pagefilms.php">FILMS<span class="sr-only">(current)</span></a>

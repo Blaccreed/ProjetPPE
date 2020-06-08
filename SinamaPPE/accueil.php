@@ -13,7 +13,7 @@
 
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
-<a class="btConnexion" href="pageconnexionsinama.php" >&nbsp;CONNEXION&nbsp;</a>
+ <?php include 'scriptphp/Statut.php'; ?>
 <img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->

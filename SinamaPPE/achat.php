@@ -18,7 +18,7 @@
 
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
 
-<a class="btConnexion" href="#" >&nbsp;CONNEXION&nbsp;</a>
+ <?php include 'scriptphp/Statut.php'; ?>
 <img src="imagedivers/logociné2.png" alt="" width="200" />
 
    <!-- Optional JavaScript -->
@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="card-body">
-    <a href="#" class="card-link">Changer</a>
+    <a href="pagefilms.php" class="card-link">Changer</a>
   </div>
  </div>
 
@@ -85,7 +85,7 @@
       </div>
   </div>
 
-<a href="pageaccueilsinama.html"><button type="button" class="btn btn-success"style="width: 5rem; margin-top: 30px; margin-bottom: 80px;">Valider</button></a>
+<a href="accueil.php"><button type="button" class="btn btn-success"style="width: 5rem; margin-top: 30px; margin-bottom: 80px;">Valider</button></a>
 
 </CENTER>
 
