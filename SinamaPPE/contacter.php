@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="contacter.css" >
     <title>Sinama</title>
   </head>
-  <body>
+  <body style="background-color: #869F6F">
 
-    <div class="body2">
+    <div style="background-color: black">
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
- <?php include 'scriptphp/Statut.php'; ?>
+
+ <?php include 'scriptphp/Statut.php'; ?> <!-- boutton connexion ! -->
     <img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
@@ -27,10 +28,13 @@
 
 <?php include 'scriptphp/bandeau.php'; ?>
 
+   </div>
+
+
 <!-- image qui défile sur les évènements et autres PROMOTIONS et OFFRES-->
 
 <CENTER>
-<div style="width: 800px; margin-top: 5%; display:block; position:static; padding-top:10px; padding-bottom:10px;border: 2px solid black; text-align: center; background: #353A3F; border-radius: 5px;">
+<div style="width: 800px; margin-top: 5%; display:block; position:static; padding-top:10px; padding-bottom:10px;border: 2px, solid black; text-align: center; background: #353A3F; border-radius: 5px;">
 </br>
 <p>
  <b><font color="red" size=+3 >Nous contacter</font></p></b>

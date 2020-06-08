@@ -30,7 +30,7 @@
       ?>
 </div>
 
-<p style=" width: 900;font-size: 30px;text-align: center;  margin-top: 1%; color: white; margin-bottom: 0px;"> <?php    echo "Soyez au courant des films sortis recement et faites votre reservation";?> </p>
+<p style=" width: 900;font-size: 30px;text-align: center;  margin-top: 1%; color: black; margin-bottom: 0px;"> <?php    echo "Soyez au courant des films sortis recement et faites votre reservation";?> </p>
     <!-- la navbar de l'accueil du site -->
 
 
