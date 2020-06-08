@@ -44,7 +44,7 @@
   </div>
 <a href="#">Mot de passe oublié</a>
 </br>
-<a href=""><button type="submit" name="connexion" class="btn btn-primary"style="width: 8rem;background-color: #53A351; margin-top: 30px; margin-bottom: 10px;">Connexion</button></a>
+<a href="#"><button type="submit" name="connexion" class="btn btn-primary"style="width: 8rem;background-color: #53A351; margin-top: 30px; margin-bottom: 10px;">Connexion</button></a>
 </form>
 </br>
 <p>OU</p>
