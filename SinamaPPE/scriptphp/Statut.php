@@ -3,7 +3,7 @@ session_start();
 if (isset($_SESSION['id']))
       {
         echo  "<a class='btDeconnexion' href='pageconnexionsinama.php' >&nbsp;DECONNEXION&nbsp;</a>";
-        echo "<font color ='red'>Bienvenue à </font>".$_SESSION['nom'];
+        echo "<font color ='red'>Bienvenue à </font>".$_SESSION['nom']." ".$_SESSION['prenom'];
       }
       else
       {
