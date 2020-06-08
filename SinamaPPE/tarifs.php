@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,8 +12,18 @@
   </head>
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
-
-    <a class="btConnexion" href="pageconnexionsinama.php" >&nbsp;CONNEXION&nbsp;</a>
+    <?php
+    session_start();
+    if (isset($_SESSION['id']))
+          {
+            echo  "<a class='btDeconnexion' href='pageconnexionsinama.php' >&nbsp;DECONNEXION&nbsp;</a>";
+            echo "<font color ='red'>Bienvenue à </font>".$_SESSION['nom'];
+          }
+          else
+          {
+            echo "<a class='btConnexion' href='pageconnexionsinama.php' >&nbsp;CONNEXION&nbsp;</a>";
+          }
+       ?>
     <img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
