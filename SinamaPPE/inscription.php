@@ -16,7 +16,7 @@ if(!empty($_POST)) {
 
         }
     }
-    header("Location: pageaccueilsinama.php");
+    header("Location: pageaccueil.php");
     echo "Vous êtes connecté";
 } else {
     echo "Une erreur est survenue, veuillez réessayer ultérieurement.";
