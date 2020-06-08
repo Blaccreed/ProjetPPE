@@ -43,7 +43,8 @@
   <small id="passwordHelpBlock" class="form-text text-muted">  Si vous avez oublie votre mot de passe vous pouvez toujours cliquer sur le bouton en bas.</small>
   </div>
 <a href="#">Mot de passe oublié</a>
-<a href="pageaccueilsinama.php"><button type="submit" name="connexion" class="btn btn-primary"style="width: 8rem; margin-top: 30px; margin-bottom: 10px;">Connexion</button></a>
+</br>
+<a href="pageaccueilsinama.php"><button type="submit" name="connexion" class="btn btn-primary"style="width: 8rem;background-color: #53A351; margin-top: 30px; margin-bottom: 10px;">Connexion</button></a>
 </form>
 </br>
 <p>OU</p>
