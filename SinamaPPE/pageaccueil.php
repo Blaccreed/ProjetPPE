@@ -13,7 +13,18 @@
 
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
- <?php include 'scriptphp/Statut.php'; ?>
+    <?php
+    session_start();
+    if (isset($_SESSION['id']))
+          {
+            echo  "<a class='btDeconnexion' href='pageconnexionsinama.php' >&nbsp;DECONNEXION&nbsp;</a>";
+            echo "<font color ='red'>Bienvenue à </font>".$_SESSION['nom']." ".$_SESSION['prenom'];
+          }
+          else
+          {
+            echo "<a class='btConnexion' href='pageconnexion.php' >&nbsp;CONNEXION&nbsp;</a>";
+          }
+       ?>
 <img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
