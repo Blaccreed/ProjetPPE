@@ -31,7 +31,7 @@
 </br>
 
 <h2>Inscription</h2>
-<form action="creecomptephp.php" method="post" class="needs-validation" novalidate>
+<form action="inscription.php" method="post" class="needs-validation" novalidate>
   <div class="nomETprenom">
   <div class="form-row">
 
