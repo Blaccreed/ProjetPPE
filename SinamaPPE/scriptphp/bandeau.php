@@ -14,7 +14,7 @@
     <a class="nav-link" href="pagefilms.php">FILMS<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
-    <a class="nav-link" href="pagetarifs.php">TARIFS<span class="sr-only">(current)</span></a>
+    <a class="nav-link" href="pagetarif.php">TARIFS<span class="sr-only">(current)</span></a>
   </li>
   <li class="nav-item active">
     <a class="nav-link" href="pagecontact.php">NOUS CONTACTER<span class="sr-only">(current)</span></a>
