@@ -16,7 +16,7 @@
 
     <div style="background-color:black;">
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
- <?php include 'scriptphp/Statut.php'; ?>
+<?php include 'scriptphp/Statut.php'; ?>
 <img src="imagedivers/logociné2.png" alt="" width="200" />
 
     <!-- Optional JavaScript -->
