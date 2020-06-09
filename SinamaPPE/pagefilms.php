@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="pageacceueilsinama.css" >
+    <link rel="stylesheet" href="pageacceueil.css" >
     <link href='http://fonts.googleapis.com/css?family=Montserrat:300,600' rel='stylesheet' type='text/css'>
     <title>Sinama</title>
   </head>
@@ -15,7 +15,7 @@
   <body style="background-color:#869F6F;">
 
     <div style="background-color:black;">
-    <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
+
 <?php include 'scriptphp/Statut.php'; ?>
 <img src="imagedivers/logociné2.png" alt="" width="200" />
 
@@ -47,17 +47,17 @@
         <tr>
           <td style="width: 18rem;"><img src="imagedivers/nightmareisland.jpg" class="card-img" alt="..."></td>
           <td >Nightmare Island</td>
-          <td ><a href="achat.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
+          <td ><a href="pagereservation.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
         </tr>
         <tr>
           <td style="width: 18rem;"><img src="imagedivers/underwater2.jpg" class="card-img" alt="..."></td>
           <td>UndeWater 2</td>
-          <td><a href="achat.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
+          <td><a href="pagereservation.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
         </tr>
         <tr>
           <td style="width: 18rem;"><img src="imagedivers/princeoublie.jpg" class="card-img" alt="..."></td>
           <td>Prince Oublié</td>
-          <td><a href="achat.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
+          <td><a href="pagereservation.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
         </tr>
       </tbody>
     </table>
