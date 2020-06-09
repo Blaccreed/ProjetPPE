@@ -7,11 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="pageacceueilsinama.css" >
+    <link rel="stylesheet" href="accueil.css" >
     <link href='http://fonts.googleapis.com/css?family=Montserrat:300,600' rel='stylesheet' type='text/css'>
     <title>Sinama</title>
   </head>
-
   <body style="background-color:#869F6F;">
 
     <div style="background-color:black;">

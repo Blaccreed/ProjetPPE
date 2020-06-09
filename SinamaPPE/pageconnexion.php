@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="connexion.css" >
     <title>Sinama</title>
   </head>
-
   <body>
     <!-- je veux un bouton pour qu'il puisse s'inscrire au dessus de la barre ! -->
 <?php include 'scriptphp/Statut.php'; ?>
