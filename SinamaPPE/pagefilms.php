@@ -44,27 +44,16 @@
         </tr>
       </thead>
       <tbody>
+
         <tr>
-          <td style="width: 18rem;"><img src="imagedivers/nightmareisland.jpg" class="card-img" alt="..."></td>
-          <td >Nightmare Island</td>
-          <td ><a href="pagereservation.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
-        </tr>
-        <tr>
-          <td style="width: 18rem;"><img src="imagedivers/underwater2.jpg" class="card-img" alt="..."></td>
-          <td>UndeWater 2</td>
-          <td><a href="pagereservation.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
-        </tr>
-        <tr>
-          <td style="width: 18rem;"><img src="imagedivers/princeoublie.jpg" class="card-img" alt="..."></td>
+          <td style="width: 18rem;"><?php include 'scriptphp/selectImageFilm'; ?> </td>
           <td>Prince Oublié</td>
           <td><a href="pagereservation.php"><button type="button" class="btn btn-success"style="width: 8rem; margin-top: 0px; margin-bottom: 80px;">Reserver</button></a></td>
         </tr>
       </tbody>
     </table>
-<?php
-    echo "";
 
-?>
+<?php include 'scriptphp/selectImageFilm.php';  ?>
 
 </body>
 </html>

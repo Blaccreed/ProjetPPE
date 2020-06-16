@@ -10,10 +10,13 @@
 $couleur=$_POST['couleur'];
 ?>
 <?php
-	$sql="SELECT image FROM film";
+	$sql="SELECT titre, duree, numSalle, image, description, genre, realisateur FROM film";
 	$result= $mysqli->query($sql);
 	while($donnees= $result->fetch_assoc())
 	{
-		echo $donnees["image"]."</br>";
+		echo 'affichage image';
+		$ligneimage="<img src='../imagedivers/".$donnees["image"]."' class='card-img' alt='...'>";
+    echo $ligneimage;
+		//echo  $donnees["titre"]." ".$donnees["duree"]." ".$donnees["numSalle"]." ".$donnees["image"]." ".$donnees["description"]." ".$donnees["genre"]." ".$donnees["realisateur"]."</br>";
 	}
 ?>
